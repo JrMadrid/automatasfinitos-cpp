@@ -1,0 +1,28 @@
+TAREA 1.2
+==========
+Programar en C++
+Entregar el codigo fuente de los ejercicios por el campus virtual en el item Tarea 1.2, la fecha limite se encuentra definida en dicha tarea.
+
+IMPORTANTE: les estoy incluyendo los diagramas en el mismo archivo zip donde viene esta tarea.
+
+EJERCICIOS:
+1) Hacer un automata finito que determine si una cadena de texto cumple el formato de fecha siguiente:
+AAAA/MM/DD
+A = año, M = mes, D = dia
+donde A, M y D deben ser un digito entre 0 y 9
+Devolver true si la fecha es valida o false si no es valida.
+
+NOTA: Debe seguir los principios de lo que es un automata finito por medio de estados.
+
+2) Crear un automata finito que revisa un string el cual esta destinado a ser un password. Dicho password debe cumplir con las reglas siguientes:
+• El password debe ser de 6 o mas caracteres.
+• Debe comenzar con un numero entre 0 y 9
+• Luego llevara solo letras mayusculas, la cantidad que desee (nada de numeros o simbolos)
+• Debe terminar con un simbolo, este debe ser # ó *
+En caso de cumplirse las reglas devolver mensaje: password valido
+En caso de no cumplirse las reglas devolver mensaje: password no valido.
+
+NOTA: Debe seguir los principios de lo que es un automata finito por medio de estados.
+
+3) Crear un automata finito que detecte si un string dado es un numero BINARIO, devolver el mensaje ES BINARIO  en caso de serlo, de lo contrario devolver NO ES BINARIO, Si encuentra letras o simbolos devolver NO VALIDO.
+NOTA: Debe seguir los principios de lo que es un automata finito por medio de estados.
